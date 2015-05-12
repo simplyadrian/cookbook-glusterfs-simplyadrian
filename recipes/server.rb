@@ -1,5 +1,5 @@
-include_recipe 'glusterfs-nativex::base'
-include_recipe 'glusterfs-nativex::peer'
+include_recipe 'glusterfs-simplyadrian::base'
+include_recipe 'glusterfs-simplyadrian::peer'
 
 #node[:glusterfs][:server][:peers].each do |peer|
 #  execute "gluster peer probe #{peer}" do

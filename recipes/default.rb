@@ -1,2 +1,2 @@
-include_recipe 'glusterfs-nativex::server'
-include_recipe 'glusterfs-nativex::client'
+include_recipe 'glusterfs-simplyadrian::server'
+include_recipe 'glusterfs-simplyadrian::client'
